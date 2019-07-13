@@ -2,7 +2,7 @@ import requests
 import time
 from datetime import datetime
 
-BITCOIN_PRICE_THRESHOLD = 10000  # Set this to whatever you like
+BITCOIN_PRICE_THRESHOLD = 10000
 BITCOIN_API_URL = 'https://api.coinmarketcap.com/v1/ticker/bitcoin/'
 USD_EXCHANGE_RATE = 'http://api.nbp.pl/api/exchangerates/rates/a/usd/?format=json'
 IFTTT_WEBHOOKS_URL = 'https://maker.ifttt.com/trigger/{}/with/key/eA10OsKc3pmUM57uDrByvLRBiw_Uy1kLbrpTB_Dt3BD'
